@@ -36,3 +36,7 @@ Open <http://localhost:3000>.
 ## Source
 
 The component source and artwork were extracted from an existing landing page and can run independently from this repository.
+
+## License
+
+MIT. See [LICENSE](./LICENSE).
