@@ -11,6 +11,14 @@ The carousel includes its layered artwork, desktop and mobile framing, wordmarks
 
 The page has no site navigation or footer. Plain filler paragraphs above and below the original section make the page scrollable so the carousel's parallax can be viewed locally.
 
+## Demo
+
+<video src="./public/custom-brand-themes.mov" controls playsinline width="100%">
+  <a href="./public/custom-brand-themes.mov">Watch the carousel demo</a>
+</video>
+
+The original demo video is included at [`public/custom-brand-themes.mov`](./public/custom-brand-themes.mov).
+
 ## Technology
 
 - Next.js 16 App Router
