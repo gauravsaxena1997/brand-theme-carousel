@@ -1,0 +1,124 @@
+{
+  "leaves": [
+    {
+      "src": "/landing/themes/coffee-bean-1-320.webp",
+      "width": 320,
+      "height": 320,
+      "variants": [
+        {
+          "width": 160,
+          "src": "/landing/themes/coffee-bean-1-160.webp"
+        },
+        {
+          "width": 320,
+          "src": "/landing/themes/coffee-bean-1-320.webp"
+        }
+      ]
+    },
+    {
+      "src": "/landing/themes/coffee-bean-2-320.webp",
+      "width": 320,
+      "height": 320,
+      "variants": [
+        {
+          "width": 160,
+          "src": "/landing/themes/coffee-bean-2-160.webp"
+        },
+        {
+          "width": 320,
+          "src": "/landing/themes/coffee-bean-2-320.webp"
+        }
+      ]
+    },
+    {
+      "src": "/landing/themes/coffee-bean-3-320.webp",
+      "width": 320,
+      "height": 320,
+      "variants": [
+        {
+          "width": 160,
+          "src": "/landing/themes/coffee-bean-3-160.webp"
+        },
+        {
+          "width": 320,
+          "src": "/landing/themes/coffee-bean-3-320.webp"
+        }
+      ]
+    },
+    {
+      "src": "/landing/themes/coffee-bean-4-320.webp",
+      "width": 320,
+      "height": 320,
+      "variants": [
+        {
+          "width": 160,
+          "src": "/landing/themes/coffee-bean-4-160.webp"
+        },
+        {
+          "width": 320,
+          "src": "/landing/themes/coffee-bean-4-320.webp"
+        }
+      ]
+    }
+  ],
+  "backdropDesktop": {
+    "src": "/landing/themes/coffee-backdrop-desktop-1600.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 960,
+        "src": "/landing/themes/coffee-backdrop-desktop-960.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/landing/themes/coffee-backdrop-desktop-1600.webp"
+      }
+    ]
+  },
+  "backdropMobile": {
+    "src": "/landing/themes/coffee-backdrop-mobile-800.webp",
+    "width": 800,
+    "height": 1423,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/landing/themes/coffee-backdrop-mobile-480.webp"
+      },
+      {
+        "width": 800,
+        "src": "/landing/themes/coffee-backdrop-mobile-800.webp"
+      }
+    ]
+  },
+  "phoneDesktop": {
+    "src": "/landing/themes/coffee-phone-desktop-1100.webp",
+    "width": 1024,
+    "height": 1536,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/landing/themes/coffee-phone-desktop-640.webp"
+      },
+      {
+        "width": 1024,
+        "src": "/landing/themes/coffee-phone-desktop-1100.webp"
+      }
+    ]
+  },
+  "baseDesktop": {
+    "src": "/landing/themes/coffee-base-desktop-1100.webp",
+    "width": 1100,
+    "height": 733,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/landing/themes/coffee-base-desktop-640.webp"
+      },
+      {
+        "width": 1100,
+        "src": "/landing/themes/coffee-base-desktop-1100.webp"
+      }
+    ]
+  }
+}

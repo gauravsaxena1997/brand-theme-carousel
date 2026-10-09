@@ -1,0 +1,63 @@
+.landing-handwriting {
+  display: block;
+  width: min(100%, 520px);
+  height: auto;
+  color: var(--accent);
+  overflow: visible;
+  margin: 0.4rem 0 1.1rem -8px;
+}
+
+.landing-handwriting .handwriting-pen {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+}
+
+.landing-handwriting[data-phase="waiting"] .handwriting-pen {
+  stroke-dashoffset: 1;
+}
+
+.landing-handwriting[data-phase="waiting"] .handwriting-complete-mask {
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+
+.landing-handwriting[data-phase="writing"] .handwriting-pen {
+  animation: landing-pen-write var(--pen-duration) linear var(--pen-delay) both;
+}
+
+.landing-handwriting[data-phase="writing"] .handwriting-complete-mask {
+  animation: landing-ink-complete 1ms linear var(--ink-complete-delay, 1.85s)
+    both;
+}
+
+@keyframes landing-pen-write {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes landing-ink-complete {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-handwriting[data-phase] .handwriting-pen {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+
+  .landing-handwriting[data-phase] .handwriting-complete-mask {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+}

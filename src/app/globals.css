@@ -1,0 +1,48 @@
+:root {
+  --background: #f8f5f5;
+  --foreground: #302630;
+  --primary: #472b47;
+  --accent: #d3974b;
+  --ring: #d3974b;
+  --landing-section-space: clamp(3rem, 5vw, 5rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 20rem;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-manrope), sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+.scroll-content {
+  display: grid;
+  align-content: center;
+  gap: 1.25rem;
+  min-height: 24svh;
+  padding: clamp(2rem, 8vw, 7rem);
+  color: #6d5e67;
+}
+
+.scroll-content p {
+  max-width: 54rem;
+  margin: 0;
+  font-size: clamp(1.05rem, 2vw, 1.6rem);
+  line-height: 1.7;
+}
+
+.scroll-content--bottom {
+  min-height: 48svh;
+}

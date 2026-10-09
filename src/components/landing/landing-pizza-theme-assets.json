@@ -1,0 +1,124 @@
+{
+  "leaves": [
+    {
+      "src": "/landing/themes/pizza-atom-1-320.webp",
+      "width": 320,
+      "height": 320,
+      "variants": [
+        {
+          "width": 160,
+          "src": "/landing/themes/pizza-atom-1-160.webp"
+        },
+        {
+          "width": 320,
+          "src": "/landing/themes/pizza-atom-1-320.webp"
+        }
+      ]
+    },
+    {
+      "src": "/landing/themes/pizza-atom-2-320.webp",
+      "width": 320,
+      "height": 320,
+      "variants": [
+        {
+          "width": 160,
+          "src": "/landing/themes/pizza-atom-2-160.webp"
+        },
+        {
+          "width": 320,
+          "src": "/landing/themes/pizza-atom-2-320.webp"
+        }
+      ]
+    },
+    {
+      "src": "/landing/themes/pizza-atom-3-320.webp",
+      "width": 320,
+      "height": 320,
+      "variants": [
+        {
+          "width": 160,
+          "src": "/landing/themes/pizza-atom-3-160.webp"
+        },
+        {
+          "width": 320,
+          "src": "/landing/themes/pizza-atom-3-320.webp"
+        }
+      ]
+    },
+    {
+      "src": "/landing/themes/pizza-atom-4-320.webp",
+      "width": 320,
+      "height": 320,
+      "variants": [
+        {
+          "width": 160,
+          "src": "/landing/themes/pizza-atom-4-160.webp"
+        },
+        {
+          "width": 320,
+          "src": "/landing/themes/pizza-atom-4-320.webp"
+        }
+      ]
+    }
+  ],
+  "backdropDesktop": {
+    "src": "/landing/themes/pizza-backdrop-desktop-1600.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "width": 960,
+        "src": "/landing/themes/pizza-backdrop-desktop-960.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/landing/themes/pizza-backdrop-desktop-1600.webp"
+      }
+    ]
+  },
+  "backdropMobile": {
+    "src": "/landing/themes/pizza-backdrop-mobile-800.webp",
+    "width": 800,
+    "height": 1421,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/landing/themes/pizza-backdrop-mobile-480.webp"
+      },
+      {
+        "width": 800,
+        "src": "/landing/themes/pizza-backdrop-mobile-800.webp"
+      }
+    ]
+  },
+  "phoneDesktop": {
+    "src": "/landing/themes/pizza-phone-desktop-1100.webp",
+    "width": 1024,
+    "height": 1536,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/landing/themes/pizza-phone-desktop-640.webp"
+      },
+      {
+        "width": 1024,
+        "src": "/landing/themes/pizza-phone-desktop-1100.webp"
+      }
+    ]
+  },
+  "baseDesktop": {
+    "src": "/landing/themes/pizza-base-desktop-1100.webp",
+    "width": 1100,
+    "height": 733,
+    "variants": [
+      {
+        "width": 640,
+        "src": "/landing/themes/pizza-base-desktop-640.webp"
+      },
+      {
+        "width": 1100,
+        "src": "/landing/themes/pizza-base-desktop-1100.webp"
+      }
+    ]
+  }
+}
