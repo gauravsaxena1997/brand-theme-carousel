@@ -13,11 +13,9 @@ The page has no site navigation or footer. Plain filler paragraphs above and bel
 
 ## Demo
 
-<video src="./public/custom-brand-themes.mov" controls playsinline width="100%">
-  <a href="./public/custom-brand-themes.mov">Watch the carousel demo</a>
-</video>
+![Custom brand carousel demo](./public/custom-brand-themes-preview.gif)
 
-The original demo video is included at [`public/custom-brand-themes.mov`](./public/custom-brand-themes.mov).
+The original video is included as [`custom-brand-themes.mov`](./public/custom-brand-themes.mov).
 
 ## Technology
 
